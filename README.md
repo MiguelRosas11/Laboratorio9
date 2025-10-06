@@ -107,7 +107,3 @@ Este laboratorio demostró el poder del enfoque declarativo de Compose y la impo
 `remember` es útil para estados efímeros, pero **MVVM con ViewModel y StateFlow** permite construir aplicaciones robustas, escalables y reactivas.  
 La integración con **Navigation Compose** consolida un flujo unidireccional de datos (UDF) limpio y sostenible.
 
----
-
-## Enlace al repositorio
-👉 [https://github.com/MiguelRosas11/Laboratorio9](https://github.com/MiguelRosas11/Laboratorio9)
