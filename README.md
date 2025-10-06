@@ -29,7 +29,8 @@ El estado no persiste porque **`remember`** guarda los datos dentro de la compos
 Cuando la actividad se destruye por una rotación, se crea una nueva instancia de la UI, perdiendo todo el estado previo.  
 Esto muestra la necesidad de una fuente de verdad más duradera: el **ViewModel**.
 
-📸 *[Agrega aquí la captura de LikeCounterScreen]*
+<img width="1918" height="1078" alt="LikeCounterScreen" src="https://github.com/user-attachments/assets/1b749bc4-b8bd-443d-9e44-2a860672bd76" />
+
 
 ---
 
@@ -57,7 +58,8 @@ El estado persiste al rotar el dispositivo gracias al **ViewModel**, que vive mi
 El ViewModel resuelve el problema anterior porque funciona como **única fuente de verdad** para la UI y sobrevive a los cambios de configuración.  
 Además, al usar `StateFlow`, el flujo de datos es reactivo y seguro para el ciclo de vida.
 
-📸 *[Agrega aquí la captura de WishlistScreen]*
+<img width="1918" height="1078" alt="WishlistScreen" src="https://github.com/user-attachments/assets/b0a992b9-65ee-473b-8286-a58bfbf5ad6e" />
+
 
 ---
 
@@ -87,7 +89,8 @@ Esto permite que las dos pantallas accedan al mismo estado sin duplicarlo.
 Compartir un `ViewModel` entre destinos es más eficiente y limpio que pasar listas o argumentos por navegación.  
 Se mantiene una **única fuente de verdad**, evitando inconsistencias y garantizando sincronización entre pantallas.
 
-📸 *[Agrega aquí la captura de ProfileScreen]*
+<img width="1918" height="1078" alt="ProfileScreen" src="https://github.com/user-attachments/assets/b2ca91f4-6cb2-464b-a694-69e03c5e73dd" />
+
 
 ---
 
