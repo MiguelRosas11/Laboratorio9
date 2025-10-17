@@ -1,4 +1,7 @@
 package com.example.laboratorio9.feature.wishlist.domain.model
 
-class Product {
-}
+data class Product(
+    val id: Int,
+    val name: String,
+    val isWishlisted: Boolean = false
+)
